@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: it.sauronsoftware.SchedulingPatternTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.048 sec <<< FAILURE!
+testExceptionIsThrown(it.sauronsoftware.SchedulingPatternTest)  Time elapsed: 0.026 sec  <<< ERROR!
+it.sauronsoftware.cron4j.InvalidPatternException: invalid pattern: "0 5 * *"
+	at it.sauronsoftware.cron4j.SchedulingPattern.<init>(SchedulingPattern.java:248)
+	at it.sauronsoftware.SchedulingPatternTest.testExceptionIsThrown(SchedulingPatternTest.java:20)
